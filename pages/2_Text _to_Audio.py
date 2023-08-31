@@ -11,7 +11,7 @@ page_title="Multipage App",
 )
 genders = ['male', 'female']
 st.title("Translate Text to Audio")
-text = st.text_area("Écrivez votre texte ici")
+text = st.text_area("Write your text here")
 selected_language = st.selectbox("Select language", options=language, format_func=lambda x: x[1])
 selected_gender = st.selectbox("Select the sex", options=genders)
 
