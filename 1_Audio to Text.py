@@ -30,7 +30,10 @@ if st.button("Transcribe Audio"):
             text = recognizer.recognize_google(audio, language=selected_language[0])
 
         # Affichage du texte extrait
-        st.write("Texte extrait de l'audio :")
-        st.write(text)
+        st.write("Text:")
+        st.write(
+            f'<div style="background-color: black; color: white; padding: 20px; white-space: pre-line; border-radius: 10px;">{text}</div>',
+            unsafe_allow_html=True
+        )
     else:
         st.error("Veuillez télécharger un fichier audio.")
