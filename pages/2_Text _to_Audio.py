@@ -6,7 +6,7 @@ from langdetect import detect
 from pydub import AudioSegment
 
 st.set_page_config(
-page_title="Multipage App",
+page_title="sat_translator",
     page_icon="🗣",
     layout="wide"
 )

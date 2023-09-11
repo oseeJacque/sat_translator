@@ -7,7 +7,7 @@ from pydub import AudioSegment
 from src.utils.utils import language, audio_to_text
 
 st.set_page_config(
-page_title="Multipage App",
+page_title="sat_translator",
     page_icon="🗣",
 layout="wide"
 )
